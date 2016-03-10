@@ -1,0 +1,27 @@
+Write a simple XML parser that assumes that attributes do not exist.  Given the following input from a text file, generate the following output:
+
+Input:
+<Person>
+  <Fname>Mike</Fname>
+  <Lname>Litman</Lname>
+  <Age>15</Age>
+  <Address>
+    <Number>123</Number>
+    <Street>Elm Street</Street>
+    <City>Grafton</City>
+    <State>WI</State>
+    <Zip>53024</Zip>
+  </Address>
+</Person> 
+
+Output:
+Person ->
+Fname -> Mike
+Lname -> Litman
+Age -> 15
+Address ->
+Number -> 123
+Street -> Elm Street
+City -> Grafton
+State -> WI
+Zip -> 53024
